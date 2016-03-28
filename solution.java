@@ -6,9 +6,7 @@ public class solution {
 
 	public static void main(String args[]) {
 		solution ob = new solution();
-//		 int[] nums={10, 9, 2, 5, 3, 7, 101, 18};
 		 int[] nums= { 2, 5, 3, 7, 11, 8, 10, 13, 6 };
-		//int[] nums = { 2, 5, 7, 9, 4, 6 };
 		int max = ob.lengthOfLIS(nums);
 		System.out.println(max);
 
